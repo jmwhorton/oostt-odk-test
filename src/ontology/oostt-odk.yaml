@@ -5,6 +5,15 @@ git_repo: OOSTT
 contact: jmwhorton@uams.edu
 export_project_yaml: true
 import_group:
+  annotation_properties:
+    - rdfs:label
+    - IAO:0000115
+    - IAO:0000117
+    - rdfs:isDefinedBy
+    - terms:contributor
+    - terms:creator
+    - OOSTT:00000030
+    - OMO:0002000
   products:
     - id: omrse
     - id: d-acts
